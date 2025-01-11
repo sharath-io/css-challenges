@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box
+}
+
+
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 2rem 5rem;
+    background-color: rgb(193, 228, 239);
+    padding: 1rem 3rem;
+    border-radius: 1rem;
+}
+
+.navbar p{
+    font-size: 18px;
+    font-weight:900;
+
+
+}
