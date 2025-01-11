@@ -1,0 +1,43 @@
+:root {
+    --search-border: #bbb;
+    --search-focus-border: #3a71ca;
+}
+
+/* w3.org */
+.hide {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.container{
+    width:80%;
+    margin: auto;
+    min-width:300px;
+}
+
+.search-bar{
+    padding:0.5rem;
+    border-radius: 5px;
+    width:30%;
+    border-color: 1px solid var(--search-border);
+    transition: all .3s;
+}
+
+.search-bar:focus{
+   width:100%;
+   border-color: var(--search-focus-border)
+}
+
+.search-bar::placeholder{
+    font-weight:200;
+}
+
+.search-bar:focus::placeholder{
+    color:transparent
+}
