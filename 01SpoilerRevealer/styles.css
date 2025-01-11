@@ -1,0 +1,28 @@
+:root{
+    --spoiler-color: #000;
+}
+
+p {
+    line-height: 1.5em;
+  } 
+  
+  .post{
+    background-color:lightgray;
+    padding: 1rem;
+    margin:1rem;
+    border-radius:10px;
+    transition: background-color 2s;
+  }
+  
+  
+  .spoiler{
+    background: var(--spoiler-color);
+    color: var(--spoiler-color);
+    cursor: pointer;
+    transition: all .5s ease-in;
+  }
+
+  .spoiler:hover{
+    background: initial;
+    color:initial;
+  }
